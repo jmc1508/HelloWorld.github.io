@@ -1,0 +1,110 @@
+/*Index Profile JM - CSS*/
+
+/*Styling - ELEMENTS*/
+h4 {
+	font-family: sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 14pt;
+
+}
+
+p {
+	font-family: sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 10pt;
+}
+
+aside .container	{
+	padding: 20px;
+	width:410px;
+
+	margin-right:10px;
+	margin-top:10px;
+
+
+	font-size: 10pt;
+	background-color: rgba(228,241,245);
+	text-align: justify;
+
+	float: right;
+	box-sizing: border-box;
+
+}
+
+article {
+
+	width: 830px;
+	float: left;
+	display: block;
+}
+
+footer	{
+
+	clear: both;
+}
+
+/*Styling - Jumbotron*/
+
+.jumbotron {
+
+	margin-top: 50px;
+	margin-bottom: 0px;
+	height: 500px;
+	background-image: url(./images/yosemite_profile.jpeg);
+	background-size: cover;
+}
+
+.jumbotron-text, .jumbotron-lead {
+	color: white;
+}
+
+/*Styling -> Navigation bar Item - color*/
+.nav-link {
+	color: blue;
+}
+
+.navbar	{
+	height: 50px;
+}
+
+.button {
+
+	transition: background-color 1s;
+}
+
+/*Styling - Containers*/
+
+.container {
+
+	padding: 20px;
+	margin: 10px;
+	font-size: 10pt;
+	background-color: rgba(228,241,245);
+	text-align: justify;
+}
+
+.container-image {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.carousel-inner {
+
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/*Styling IDs*/
+
+#profile_photo	{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+}
+
+
